@@ -124,7 +124,7 @@ def install(args: set[str],
     # ------------------------------------------------------------------
     # Installing dev tools
     if '--dev' in flags:
-        subprocess.run(['pre-commit', 'install', '--install-hooks'])
+        subprocess.run(('pre-commit', 'install', '--install-hooks'))
     # ------------------------------------------------------------------
     # Installing subrepos
     if not (subrepos_config := config.get('subrepos')):
