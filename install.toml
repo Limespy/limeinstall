@@ -1,7 +1,11 @@
+[dependencies]
+required = []
+optional = {}
+
 [packages]
 required = ['.']
 optional = {}
 
 [subrepos]
-required = {}
-optional = {}
+required = {} # {remote: [head, [options], [flags]]}
+optional = {} # {option: {remote: [head, [options], [flags]]}}
