@@ -52,7 +52,7 @@ import limeinstall as li
 
 # Changelog <!-- omit in toc -->
 
-## 0.1.0 2025-01-23 <!-- omit in toc -->
+## 0.1.0 2025-04-06 <!-- omit in toc -->
 
 Cleared feature set
 
