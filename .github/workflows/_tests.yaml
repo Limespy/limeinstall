@@ -1,5 +1,7 @@
 name: Functional tests
 
+on: workflow_call
+
 jobs:
   tests:
     runs-on: ${{ matrix.os }}
